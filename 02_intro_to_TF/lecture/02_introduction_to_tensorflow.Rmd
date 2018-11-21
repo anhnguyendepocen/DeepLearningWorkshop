@@ -53,27 +53,3 @@ Sources: [keras.io](https://keras.io/), [tensorflow.rstudio.com](https://tensorf
 _Source: [Machine Learning with R and TensorFlow 32:27
 ](https://www.youtube.com/watch?v=atiYXm7JZv0)_
 
-## dd
-
-- Leon Eyrich Jessen
-
-- Apr. 2010: MSc in biotech engineering (wetlab molecular biology) from DTU
-
-- Apr. 2014: PhD in bioinformatics from DTU
-    - Immunoinformatics of Placental Malaria Vaccine Development
-
-- Apr. 2014 - Jan. 2015: Postdoc at Steno Diabetes Centre
-    - Identification of protective genetic factors in relation to diabetes complications
-
-- Jan. 2015 - Sep. 2017: Postdoc / Senior Researcher at Gentofte Hospital (COPSAC)
-    - Genetics of Childhood Asthma
-
-- Sep. 2017 - present: Postdoc in the Immunoinformatics and Machine Learning Group at DTU Bioinformatics
-    
-## What is Bioinformatics?
-
-- Intrinsically interdisciplinary, the intersection of biology, math and computer science:
-
-```{r, out.width = "600px", fig.align="center"}
-knitr::include_graphics("figures/venn_bioinformatics.png")
-```

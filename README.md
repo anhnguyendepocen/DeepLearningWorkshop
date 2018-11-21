@@ -36,15 +36,15 @@ At the Workshop
 
 ### Schedule
 
-14.00 - 14.20 Session 1, part I: Introduction to Neural Networks \[[slides]()\]
-14.20 - 14.45 Session 1, part II: Exercises \[[Link]()\]
-14.45 - 15.00 Break
-15.00 - 15.15 Session 2, part I: Introduction to TensorFlow \[[slides]()\]
-15.15 - 15.45 Session 2, part II: Exercises \[[Link]()\]
-15.45 - 16.00 Break
-16.00 - 16.15 Session 3, part I: Introduction to model training \[[slides]()\]
-16.15 - 16.45 Session 3, part II: Exercises \[[Link]()\]
-16.45 - 17.00 Q&A and workshop wrap up
+-   14.00 - 14.20 Session 1, part I: Introduction to Neural Networks \[[slides]()\]
+-   14.20 - 14.45 Session 1, part II: Exercises \[[Link]()\]
+-   14.45 - 15.00 Break
+-   15.00 - 15.15 Session 2, part I: Introduction to TensorFlow \[[slides]()\]
+-   15.15 - 15.45 Session 2, part II: Exercises \[[Link]()\]
+-   15.45 - 16.00 Break
+-   16.00 - 16.15 Session 3, part I: Introduction to Model Validation \[[slides]()\]
+-   16.15 - 16.45 Session 3, part II: Exercises \[[Link]()\]
+-   16.45 - 17.00 Q&A and workshop wrap up
 
 Resources
 ---------
