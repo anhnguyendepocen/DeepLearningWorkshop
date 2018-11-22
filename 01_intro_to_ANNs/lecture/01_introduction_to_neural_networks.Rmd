@@ -172,6 +172,14 @@ tibble(x = seq(-10, 10, length.out = 100), y = ReLU(x)) %>%
 - Input less than zero and the neuron is turned off (emits 0)
 - Input larger than zero and the neuron simply propagates the signal (emits x)
 
+## Activation Function - Output neuron(s)
+
+- Choice of activation function for output neuron(s) depend on aim
+
+    - Binary Classification: Sigmoid
+    - Multiclass Classification: Softmax, softmax$(x_i) = \frac{e^{x_i}}{\sum_{i=1}^{n} e^{x_i}}$
+    - Regression: Linear
+
 ## Optimiser: Stochastic Gradient Descend
 
 - The optimisation cannot be solved analytically, so numeric approximations are used
