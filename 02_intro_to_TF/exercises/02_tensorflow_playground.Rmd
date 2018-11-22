@@ -1,5 +1,5 @@
 ---
-title: "Session 2, TensorFlow Playground"
+title: "Session 2, part II: Exercise - TensorFlow Playground"
 output: github_document
 ---
 

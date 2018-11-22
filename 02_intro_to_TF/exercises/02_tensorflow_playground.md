@@ -1,4 +1,4 @@
-Session 2, TensorFlow Playground
+Session 2, part II: Exercise - TensorFlow Playground
 ================
 
 TensorFlow Playground
