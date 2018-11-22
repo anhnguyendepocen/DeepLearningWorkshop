@@ -182,12 +182,11 @@ for( i in seq(1, nrow(X)) ){
 
 Lastly, we can visualise the training and the final performance of the model:
 
-```{r}
+```{r, out.width = "600px", fig.align="center"}
 # Plot results
 # ------------------------------------------------------------------------------
 par(mfrow=c(1,2))
 plot(training, type = "l", xlab="epoch", ylab = "MSE")
 plot(cbind(y_pred, y_true))
 abline(v = 0.5, lty = 2)
-
 ```

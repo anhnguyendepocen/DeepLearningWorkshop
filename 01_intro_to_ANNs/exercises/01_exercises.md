@@ -208,4 +208,4 @@ plot(cbind(y_pred, y_true))
 abline(v = 0.5, lty = 2)
 ```
 
-![](01_exercises_files/figure-markdown_github/unnamed-chunk-9-1.png)
+<img src="01_exercises_files/figure-markdown_github/unnamed-chunk-9-1.png" width="600px" style="display: block; margin: auto;" />
