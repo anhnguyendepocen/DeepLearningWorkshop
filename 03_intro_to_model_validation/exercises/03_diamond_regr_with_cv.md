@@ -47,3 +47,4 @@ Once you have obtained an adequate performance
 
 1.  In a new blank script, by copy/pasting, see if you can make a new model with these hyperparameters, which is trained on ALL the data
 2.  Use the model to predict on all the data and make a scatter plot of `y_true` versus `y_pred`
+3.  How does this performance compare the average from part II?
