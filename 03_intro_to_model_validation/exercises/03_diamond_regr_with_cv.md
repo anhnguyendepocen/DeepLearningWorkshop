@@ -30,4 +30,20 @@ Take a few minutes to understand the data, you can use the `?diamonds` command t
 Part II
 -------
 
-I have made a script containing code for running a neural network based regression with cross validation, which you can find [here]()
+I have made a script containing code for running a neural network based regression with cross validation, which you can find [here](https://raw.githubusercontent.com/leonjessen/DeepLearningWorkshop/master/R/diamonds_regression.R)
+
+1.  Download the script
+2.  Open the script in your favourite editor
+3.  Make sure the script can run
+4.  Go through the script and make sure you get an understanding of what is going on
+5.  See if you can get a better fit, by tuning the hyperparameters
+
+Who can get the best average performance?
+
+Part III
+--------
+
+Once you have obtained an adequate performance
+
+1.  In a new blank script, by copy/pasting, see if you can make a new model with these hyperparameters, which is trained on ALL the data
+2.  Use the model to predict on all the data and make a scatter plot of `y_true` versus `y_pred`
