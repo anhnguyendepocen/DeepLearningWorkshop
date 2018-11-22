@@ -45,7 +45,7 @@ At the Workshop
 -   15.25 - 15.45 Session 2, part IV: Exercise - Building a simple neural network using Keras and Tensorflow \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/02_intro_to_TF/exercises/02_simple_keras_ann.md)\]
 -   15.45 - 16.00 Break
 -   16.00 - 16.15 Session 3, part I: Lecture - Introduction to Model Validation \[[slides](http://htmlpreview.github.io/?https://github.com/leonjessen/DeepLearningWorkshop/blob/master/03_intro_to_model_validation/lecture/03_intro_to_model_validation.html)\]
--   16.15 - 16.45 Session 3, part II: Exercise - Regression on diamonds with Cross Validation \[[Link]()\]
+-   16.15 - 16.45 Session 3, part II: Exercise - Regression on diamonds with Cross Validation \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/03_intro_to_model_validation/exercises/03_diamond_regr_with_cv.md)\]
 -   16.45 - 17.00 Session 4, Q&A and Workshop Wrap Up \[[slides]()\]
 
 Resources
