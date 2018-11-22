@@ -45,4 +45,4 @@ TensorFlow playground allows us to tinker with a neural network to get a better 
 
 ### Part V
 
-1.  Take 10 minutes to play around with TensorFlow Playground
+1.  Take 5 minutes to play around with TensorFlow Playground
