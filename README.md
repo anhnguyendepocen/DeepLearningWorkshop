@@ -40,9 +40,9 @@ At the Workshop
 -   14.20 - 14.45 Session 1, part II: Exercise - Simple Artificial Neural Network in Base R \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/01_intro_to_ANNs/exercises/01_exercises.md)\]
 -   14.45 - 15.00 Break
 -   15.00 - 15.05 Session 2, part I: Lecture - Introduction to TensorFlow \[[slides](http://htmlpreview.github.io/?https://github.com/leonjessen/DeepLearningWorkshop/blob/master/02_intro_to_TF/lecture/02_introduction_to_tensorflow.html#1)\]
--   15.05 - 15.20 Session 2, part II: Exercise - TensorFlow Playground Exercises \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/02_intro_to_TF/exercises/02_tensorflow_playground.md)\]
+-   15.05 - 15.20 Session 2, part II: Exercise - TensorFlow Playground \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/02_intro_to_TF/exercises/02_tensorflow_playground.md)\]
 -   15.20 - 15.25 Session 2, part III: Lecture - Introduction to TensorFlow Continued \[[slides](http://htmlpreview.github.io/?https://github.com/leonjessen/DeepLearningWorkshop/blob/master/02_intro_to_TF/lecture/02_introduction_to_tensorflow_continued.html#1)\]
--   15.25 - 15.45 Session 2, part IV: Exercise - Building a simple neural network using Keras and Tensorflow \[[Link]()\]
+-   15.25 - 15.45 Session 2, part IV: Exercise - Building a simple neural network using Keras and Tensorflow \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/02_intro_to_TF/exercises/02_simple_keras_ann.md)\]
 -   15.45 - 16.00 Break
 -   16.00 - 16.15 Session 3, part I: Introduction to Model Validation \[[slides]()\]
 -   16.15 - 16.45 Session 3, part II: Exercises \[[Link]()\]
