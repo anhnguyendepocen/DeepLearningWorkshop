@@ -39,12 +39,13 @@ nn_dat = nn_dat %>% mutate(partition = mk_partitions(k = k, n = nrow(.)))
 
 # Set hyperparameters
 # ------------------------------------------------------------------------------
-n_epochs      = 20
-batch_size    = 200
+n_epochs      = 3
+batch_size    = 2000
 loss          = 'mean_squared_error'
-optimzer      = 'adam'
+learning_rate = 0.1
+optimzer      = optimizer_adam(lr = learning_rate)
 h1_activation = 'relu'
-h1_n_hidden   = 3
+h1_n_hidden   = 2
 o_activation  = 'linear'
 
 # Train models
@@ -107,7 +108,7 @@ for( k_i in seq(1, k) ){
 
 # Report average performance
 ave_perf = fold_data %>% select(pcc_test) %>% distinct %>% pull %>% mean
-cat("Average performance for current setup is PCC =", ave_perf, "\n")
+cat("\n\nAverage performance for current setup is PCC =", ave_perf, "\n\n")
 
 # Visualise data
 # ------------------------------------------------------------------------------
