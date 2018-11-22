@@ -1,0 +1,58 @@
+---
+title: "Deep Learning in R using TensorFlow via Keras"
+subtitle: "KU Biostat Micro Workshop, Session 2, part I: Introduction to TensorFlow - Continued"
+author: "Leon Eyrich Jessen, PhD"
+date: "November 22nd 2018"
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library('tidyverse')
+```
+
+## Historic Highlights of Artificial Neural Networks?
+
+- 1940's: Neurophysiologist Warren McCulloch and mathematician Walter Pitts wrote a paper on how neurons might work
+- 1975: First multilayered back propagated network developed by Paul Werbos
+- 2015: François Chollet, a Google engineer, releases [Keras](https://keras.io/), a high level Deep Learning API
+- 2015: Google releases [TensorFlow](https://www.tensorflow.org/) as open source software
+- 2017: Google's TensorFlow team decides to support Keras in TensorFlow's core library
+- 2018: On day 2 at rstudio::conf 2018 in San Diego, RStudio CEO J.J. Allaire gives his keynote talk on ["Machine Learning with R and TensorFlow"](https://www.youtube.com/watch?v=atiYXm7JZv0), officially announcing, that henceforth Keras and TensorFlow will by fully available in R 
+
+## Keras and TensorFlow - What you need to know I
+
+- TensorFlow is an open source software library for numerical computations written in `C++` (I.e. not confined to ANNs)
+- Originally developed by researchers and engineers working on the Google Brain team within Google's Machine Intelligence Research organization for the purposes of conducting machine learning and deep neural networks research
+- The core TensorFlow API is written in `Python`
+- Keras is a high-level neural networks API, written in `Python` running on top of TensorFlow (or CNTK or Theano)
+- Keras was developed by by François Chollet with a focus on enabling fast experimentation _"Being able to go from idea to result with the least possible delay is key to doing good research"_
+
+## Keras and TensorFlow - What you need to know II
+- The Keras R-package is written in `R` by François Chollet and JJ Allaire
+- The Keras interface is a really nice high level vocabulary for doing deep learning that fits really well with the way R-users work and think
+- JJ Allaire has stated that _"I have my heart in getting Keras and TensorFlow to work really really well in Deep Learning in R and hook into the RStudio IDE"_
+- The Keras `R` API calls the Keras `Python` API, which calls the core `Python` TensorFlow API which calls the TensorFlow `C++` library
+- Granted, a bit complicated, but my experience so far is, that it works
+
+Sources: [keras.io](https://keras.io/), [tensorflow.rstudio.com](https://tensorflow.rstudio.com/), [github.com/tensorflow](https://github.com/tensorflow/tensorflow), [keras.rstudio.com](https://keras.rstudio.com/), [Machine Learning with R and TensorFlow](https://www.youtube.com/watch?v=atiYXm7JZv0), [TensorFlow and Keras in R - Josh Gordon meets with J.J. Allaire](https://www.youtube.com/watch?v=YrzE_N4bjDM)
+
+## The suite of TensorFlow R packages
+
+- TensorFlow APIs
+    - [keras](https://github.com/rstudio/keras) - Interface for neural networks, with a focus on enabling fast experimentation
+    - [tfestimators](https://github.com/rstudio/tfestimators) - Implementations of common model types such as regressors and classifiers
+    - [tensorflow](https://github.com/rstudio/tensorflow) - Low-level interface the TensorFlow computational graph
+    - [tfdatasets](https://github.com/rstudio/tfdatasets) - Scalable input pipelines for TensorFlow models
+- Supporting tools
+    - [tfruns](https://github.com/rstudio/tfruns) - Track, visualise and manage TensorFlow training runs and experiments
+    - [tfdeploy](https://github.com/rstudio/tfdeploy) - Tools designed to make exporting and serving TensorFlow models straightforward
+    - [cloudml](https://github.com/rstudio/cloudml) - R interface to Google Cloud Machine Learning Engine
+
+_Source: [Machine Learning with R and TensorFlow 32:27
+](https://www.youtube.com/watch?v=atiYXm7JZv0)_
+
+# Time for exercises!
