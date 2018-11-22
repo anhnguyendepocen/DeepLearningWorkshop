@@ -1,4 +1,4 @@
-Session 1, part II: Exercises
+Session 1, part II: Exercise - Simple Artificial Neural Network in Base R
 ================
 
 Simple Artificial Neural Network in Base R
