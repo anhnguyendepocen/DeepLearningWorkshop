@@ -88,15 +88,6 @@ _Source: [Bruce Blaus](https://commons.wikimedia.org/wiki/User:BruceBlaus) | [Mu
 - Think about it, our brain is a data center!
 - Our brains processes vision, smell, taste, sound and physical touches in order for you to exist and interact with the world - All of which is happening inside you right now!
 
-## Why are Artificial Neural Networks so powerful?
-
-- ANNs capture context dependence!
-- I.e. the “meaning” of each variable depends not only on its observed value, but also on the context in which it was observed
-
-```{r, out.width = "600px", fig.align="center"}
-knitr::include_graphics("figures/HUMAN.png")
-```
-
 # Making a Prediction: The Feed Forward Algorithm
 
 ## Example: Fully Connected Neural Network
@@ -230,4 +221,7 @@ preds %>%
 - Back propagation algorithm: The algorithm used for iteratively training the ANN
 - Loss/error function: The function used to measure the error between the true and the predicted value, when training the ANN
 - Optimiser: The function used for optimising the weights, when training the ANN
+- Epoch: One run through all training examples
 - An ANN can do both binary and multiclass classification and also regression
+
+# Time for exercises!
