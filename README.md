@@ -37,7 +37,7 @@ At the Workshop
 ### Schedule
 
 -   14.00 - 14.20 Session 1, part I: Introduction to Neural Networks \[[slides]()\]
--   14.20 - 14.45 Session 1, part II: Exercises \[[Link]()\]
+-   14.20 - 14.45 Session 1, part II: Exercises \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/01_intro_to_ANNs/exercises/01_exercises.md)\]
 -   14.45 - 15.00 Break
 -   15.00 - 15.15 Session 2, part I: Introduction to TensorFlow \[[slides]()\]
 -   15.15 - 15.45 Session 2, part II: Exercises \[[Link]()\]
