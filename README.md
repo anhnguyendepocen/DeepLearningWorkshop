@@ -46,7 +46,7 @@ At the Workshop
 -   15.45 - 16.00 Break
 -   16.00 - 16.15 Session 3, part I: Lecture - Introduction to Model Validation \[[slides](http://htmlpreview.github.io/?https://github.com/leonjessen/DeepLearningWorkshop/blob/master/03_intro_to_model_validation/lecture/03_intro_to_model_validation.html)\]
 -   16.15 - 16.45 Session 3, part II: Exercise - Regression on diamonds with Cross Validation \[[Link](https://github.com/leonjessen/DeepLearningWorkshop/blob/master/03_intro_to_model_validation/exercises/03_diamond_regr_with_cv.md)\]
--   16.45 - 17.00 Session 4, Workshop Wrap Up and Q&A \[[slides]()\]
+-   16.45 - 17.00 Session 4, Workshop Wrap Up and Q&A \[[slides](http://htmlpreview.github.io/?https://github.com/leonjessen/DeepLearningWorkshop/blob/master/04_wrap_up/lecture/04_wrap_up.html)\]
 
 Resources
 ---------
