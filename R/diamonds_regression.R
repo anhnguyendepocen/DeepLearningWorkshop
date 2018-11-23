@@ -46,6 +46,8 @@ learning_rate = 0.1
 optimzer      = optimizer_adam(lr = learning_rate)
 h1_activation = 'relu'
 h1_n_hidden   = 2
+h2_activation = 'relu'
+h2_n_hidden   = 2
 o_activation  = 'linear'
 
 # Train models
@@ -56,21 +58,6 @@ fold_data = tibble()
 
 # Run k-fold cross validation
 for( k_i in seq(1, k) ){
-  
-  # Set new sequential model
-  model = keras_model_sequential()
-  
-  # Set architecture
-  model %>% 
-    layer_dense(units = h1_n_hidden, activation = h1_activation, input_shape = 9) %>% 
-    layer_dense(units = 1, activation = o_activation)
-  
-  # Compile model
-  model %>% compile(
-    loss      = loss,
-    optimizer = optimzer,
-    metrics   = metric_pcc
-  )
   
   # Set training partitions
   X_train = nn_dat %>% filter(partition %in% setdiff(1:k, k_i)) %>%
@@ -83,6 +70,22 @@ for( k_i in seq(1, k) ){
     select(contains("feat")) %>% as.matrix
   y_test = nn_dat %>% filter(partition == k_i) %>%
     pull(y_price) %>% as.numeric
+  
+  # Set new sequential model
+  model = keras_model_sequential()
+  
+  # Set architecture
+  model %>% 
+    layer_dense(units = h1_n_hidden, activation = h1_activation, input_shape = ncol(X_train)) %>%
+    layer_dense(units = h2_n_hidden, activation = h2_activation) %>% 
+    layer_dense(units = 1, activation = o_activation)
+  
+  # Compile model
+  model %>% compile(
+    loss      = loss,
+    optimizer = optimzer,
+    metrics   = metric_pcc
+  )
   
   # Fit model on training data
   history = model %>% fit(
